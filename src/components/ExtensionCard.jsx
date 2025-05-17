@@ -12,7 +12,7 @@ export const ExtensionCard = ({
   return (
     <div className="w-full border border-neutral-1 rounded-2xl bg-neutral-0 dark:bg-neutral-8 p-4 flex flex-col gap-10 ">
       <div className="flex flex-row gap-x-4">
-        <img src={logo} alt="JAKIES ZDJECIE" />
+        <img className="w-20 h-20" src={logo} alt="JAKIES ZDJECIE" />
         <div>
           <h1 className="font-bold text-lg">{name}</h1>
           <p className="text-base text-neutral-6 dark:text-neutral-3">

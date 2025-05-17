@@ -7,7 +7,7 @@ function App() {
   const [filter, setFilter] = useState("all");
 
   return (
-    <main className="flex flex-col items-center justify-center">
+    <main className="flex flex-col items-center justify-center ">
       <Header />
       <Navbar filter={filter} setFilter={setFilter} />
       <ExtensionList filter={filter} />
