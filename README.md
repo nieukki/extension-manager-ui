@@ -7,8 +7,8 @@
    - React.js
    - TailwindCSS
 
-**Screenshot:**
-</br> ![Preview of site](/light-mode-preview.jpg)
+**Screenshots:**
+</br> ![Preview of site](/public/images/light-mode-preview.jpg)
 
 **Site Preview**
 https://melodic-fairy-5b5d92.netlify.app
