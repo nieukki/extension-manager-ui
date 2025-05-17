@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const ExtensionList = ({ filter }) => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("./src/assets/data.json")
+    fetch("/data.json")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((error) => console.error("Error fetching data:", error));
