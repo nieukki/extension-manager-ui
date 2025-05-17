@@ -11,18 +11,10 @@ export const Header = () => {
   return (
     <header className="bg-neutral-0 dark:bg-neutral-7 w-3/4 mt-10 flex flex-row justify-between px-4 py-3 rounded-3xl max-sm:w-11/12 ">
       <div>
-        <img
-          src="./src/assets/images/logo.svg"
-          alt="logo"
-          className="brightness"
-        />
+        <img src="/images/logo.svg" alt="logo" className="brightness" />
       </div>
       <img
-        src={
-          isDark
-            ? "./src/assets/images/icon-sun.svg"
-            : "./src/assets/images/icon-moon.svg"
-        }
+        src={isDark ? "/images/icon-sun.svg" : "/images/icon-moon.svg"}
         role="button"
         tabIndex={0}
         alt="sun or moon icon"
