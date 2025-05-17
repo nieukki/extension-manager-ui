@@ -2,13 +2,15 @@
 
 **Description:**
 - Project from https://www.frontendmentor.io/
-- 
+
 **Used technologies:**
    - React.js
    - TailwindCSS
 
-**Screenshot:**
-</br> ![Preview of site](/preview-card-component.png)
+**Screenshots:**
+</br> ![Light mode preview](/public/images/light-mode-preview.jpg)
+
+</br> ![Dark mode preview](/public/images/dark-mode-preview.jpg)
 
 **Site Preview**
-https://guileless-croissant-90f2c5.netlify.app
+https://melodic-fairy-5b5d92.netlify.app
