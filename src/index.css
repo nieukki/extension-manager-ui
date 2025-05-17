@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neutral-9: hsl(227, 75%, 14%);
+  --color-neutral-8: hsl(226, 25%, 17%);
+  --color-neutral-7: hsl(225, 23%, 24%);
+  --color-neutral-6: hsl(226, 11%, 37%);
+  --color-neutral-3: hsl(0, 0%, 78%);
+  --color-neutral-2: hsl(217, 61%, 90%);
+  --color-neutral-1: hsl(0, 0%, 93%);
+  --color-neutral-0: hsl(200, 60%, 99%);
+  --color-red-4: hsl(3, 86%, 64%);
+  --color-red-5: hsl(3, 71%, 56%);
+  --color-red-7: hsl(3, 77%, 44%);
+  --font-family1: "Noto Sans", "sans-serif";
+  --color-blue-gradient-1: #040918;
+  --color-blue-gradient-2: #091540;
+  --color-white-gradient-1: #ebf2fc;
+  --color-white-gradient-2: #eef8f9;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
