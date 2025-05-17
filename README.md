@@ -8,7 +8,7 @@
    - TailwindCSS
 
 **Screenshot:**
-</br> ![Preview of site](./public/light-mode-preview.jpg)
+</br> ![Preview of site](/light-mode-preview.jpg)
 
 **Site Preview**
 https://melodic-fairy-5b5d92.netlify.app
